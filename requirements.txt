@@ -1,0 +1,11 @@
+# Python 3.11 or newer is required by Reflex 0.10.
+# Versions checked on PyPI / Google docs on 22 Oct 2026.
+
+# Web framework and UI
+reflex>=0.10,<0.11
+
+# Gemini API client (the SDK README advises pinning below 3.0.0)
+google-genai>=2,<3
+
+# Optional: lets the app read GEMINI_API_KEY from a local .env file
+python-dotenv>=1.0
